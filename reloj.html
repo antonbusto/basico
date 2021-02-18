@@ -19,7 +19,7 @@
  	minutos = (minutos<10)?"0"+minutos:minutos;
  	var segundos = mydate.getSeconds();
  	segundos = (segundos<10)?"0"+segundos:segundos;
- 	document.getElementById("idReloj").innerHTML = "<small><"+"font color='000000' face='Verdana'>"+
+ 	document.getElementById("idReloj").innerHTML = "<"+"small><"+"font color='000000' face='Verdana'>"+
  	                                                dayarray[day]+" "+daym+" de "+montharray[month]+" de "+
                                                         year+" "+horas+":"+minutos+":"+segundos+"<"+"/font><"+"/small>";
  	setTimeout('relojFecha()',1000);
